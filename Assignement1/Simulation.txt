@@ -1,0 +1,139 @@
+----------------------------------------------------------------
+|                   	    SIMULATION                         |
+----------------------------------------------------------------
+
+Authors: Vincenzo Fraello (299647) - Lorenzo Di Palma (299636)
+
+
+1) Crea un amministratore, alcuni soci e alcune attività
+
+Administrator registration [8, A-Francesco] into the club has been successfully carried out.
+
+Administrator registration [9, A-Concetto] into the club has been successfully carried out.
+
+Course [C-Corsa] has been successfully entered into the club.
+
+Course [C-Salto in alto] has been successfully entered into the club.
+
+Course [C-Basket] has been successfully entered into the club.
+
+Competition [G-Corsa] has been successfully entered into the club.
+
+Competition [G-Basket] has been successfully entered into the club.
+
+
+2) L’amministratore aggiunge, rimuove e modifica dei soci
+
+Member registration [10, M-Mario] into the club has been successfully carried out.
+
+Member's club list:
+
+[ID: 10, Name: M-Mario, Surname: Rossi, email: mario.rossi@gmail.com, Password: afdgt54]
+
+Member registration [11, M-Pippo] into the club has been successfully carried out.
+
+Member's club list:
+
+[ID: 10, Name: M-Mario, Surname: Rossi, email: mario.rossi@gmail.com, Password: afdgt54]
+[ID: 11, Name: M-Pippo, Surname: Verdi, email: pippo.verdi@gmail.com, Password: t6fg67d8]
+
+Member registration [12, M-Giorgio] into the club has been successfully carried out.
+
+Member's club list:
+
+[ID: 10, Name: M-Mario, Surname: Rossi, email: mario.rossi@gmail.com, Password: afdgt54]
+[ID: 11, Name: M-Pippo, Surname: Verdi, email: pippo.verdi@gmail.com, Password: t6fg67d8]
+[ID: 12, Name: M-Giorgio, Surname: Manchi, email: giorgio.macnhi@gmail.com, Password: qrt5647t]
+
+Member registration [13, M-Lorenzo] into the club has been successfully carried out.
+
+Member's club list:
+
+[ID: 10, Name: M-Mario, Surname: Rossi, email: mario.rossi@gmail.com, Password: afdgt54]
+[ID: 11, Name: M-Pippo, Surname: Verdi, email: pippo.verdi@gmail.com, Password: t6fg67d8]
+[ID: 12, Name: M-Giorgio, Surname: Manchi, email: giorgio.macnhi@gmail.com, Password: qrt5647t]
+[ID: 13, Name: M-Lorenzo, Surname: Frassi, email: lorenzo.frs@gmail.com, Password: fa23459o]
+
+Member registration [14, M-Vincenzo] into the club has been successfully carried out.
+
+Member's club list:
+
+[ID: 10, Name: M-Mario, Surname: Rossi, email: mario.rossi@gmail.com, Password: afdgt54]
+[ID: 11, Name: M-Pippo, Surname: Verdi, email: pippo.verdi@gmail.com, Password: t6fg67d8]
+[ID: 12, Name: M-Giorgio, Surname: Manchi, email: giorgio.macnhi@gmail.com, Password: qrt5647t]
+[ID: 13, Name: M-Lorenzo, Surname: Frassi, email: lorenzo.frs@gmail.com, Password: fa23459o]
+[ID: 14, Name: M-Vincenzo, Surname: De Magistri, email: vnz.dmg@gmail.com, Password: vnsfagx7]
+
+Member to delete: [ID: 11, Name: M-Pippo, Surname: Verdi, email: pippo.verdi@gmail.com]
+
+Member [11, M-Pippo] remoaval has been successfully carried out.
+
+Member to modify: [ID: 10, Name: M-Mario, Surname: Rossi, email: mario.rossi@gmail.com]
+
+Member [10, Francesco] modification has been successfully carried out.
+
+Member's club list:
+
+[ID: 10, Name: Francesco, Surname: Rossi, email: f.rossi@outlook.it, Password: afdgt54]
+[ID: 12, Name: M-Giorgio, Surname: Manchi, email: giorgio.macnhi@gmail.com, Password: qrt5647t]
+[ID: 13, Name: M-Lorenzo, Surname: Frassi, email: lorenzo.frs@gmail.com, Password: fa23459o]
+[ID: 14, Name: M-Vincenzo, Surname: De Magistri, email: vnz.dmg@gmail.com, Password: vnsfagx7]
+
+
+3) Il sistema sceglie un socio
+
+[ID: 14, Name: M-Vincenzo, Surname: De Magistri, email: vnz.dmg@gmail.com]
+
+4) Il socio si iscrive a una gara e a un corso e poi cancella l’iscrizione di una delle due attività
+
+Course registration has been successfully completed.
+
+Activity -> Course: C-Salto in alto -> [ M-Vincenzo ]
+
+Competition registration has been successfully completed.
+
+Activity -> Competition: G-Corsa -> [ M-Vincenzo ]
+
+M-Vincenzo has been successfully removed from the Course.
+
+
+5) Infine il sistema presenta le informazioni possedute da soci, amministratori e attività
+
+Admin's club list:
+
+[ID: 8, Name: A-Francesco, Surname: Bianchi, email: fr.bianchi@gmail.com, Password: af2346tyr]
+[ID: 9, Name: A-Concetto, Surname: Di Maria, email: cn.dm@libero.it, Password: afgtry34]
+
+Member's club list:
+
+[ID: 10, Name: Francesco, Surname: Rossi, email: f.rossi@outlook.it, Password: afdgt54]
+[ID: 12, Name: M-Giorgio, Surname: Manchi, email: giorgio.macnhi@gmail.com, Password: qrt5647t]
+[ID: 13, Name: M-Lorenzo, Surname: Frassi, email: lorenzo.frs@gmail.com, Password: fa23459o]
+[ID: 14, Name: M-Vincenzo, Surname: De Magistri, email: vnz.dmg@gmail.com, Password: vnsfagx7]
+
+Course's club list:
+
+[name: C-Corsa]
+
+Activity -> Course: C-Corsa -> [ ]
+
+[name: C-Salto in alto]
+
+Activity -> Course: C-Salto in alto -> [ ]
+
+[name: C-Basket]
+
+Activity -> Course: C-Basket -> [ ]
+
+
+Competition's club list:
+
+[name: G-Corsa]
+
+Activity -> Competition: G-Corsa -> [ M-Vincenzo ]
+
+[name: G-Basket]
+
+Activity -> Competition: G-Basket -> [ ]
+
+
