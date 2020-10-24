@@ -1,6 +1,6 @@
 # Club-management-simulator
 
-Assignement 1 of Ingegneria del Software Unipr
+Assignement 1 Software Engineering UniPR
 
 L’obiettivo è definire le classi del sistema software che dovrà gestire un circolo sportivo utilizzando
 in modo appropriato le tecniche di ereditarietà e composizione.
