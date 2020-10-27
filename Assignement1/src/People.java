@@ -172,7 +172,7 @@ public class People {
 	
 	static public int getUpdateId() {
 			
-		String file= "C:\\Users\\vince\\eclipse-workspace\\Assignement1\\id.txt";
+		String file= "id.txt";
 		
 		BufferedReader reader = null;
 		
